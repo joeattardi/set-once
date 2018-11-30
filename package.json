@@ -11,6 +11,7 @@
     "property",
     "freeze",
     "set",
+    "setter",
     "proxy"
   ],
   "repository": {
