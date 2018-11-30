@@ -1,0 +1,25 @@
+{
+  "name": "set-once",
+  "version": "1.0.0",
+  "description": "Allow properties to be set only once on an object",
+  "main": "src/set-once.js",
+  "scripts": {
+    "test": "mocha src/**/*.spec.js",
+    "test:watch": "mocha -w src/**/*.spec.js"
+  },
+  "keywords": [
+    "property",
+    "freeze",
+    "set",
+    "proxy"
+  ],
+  "author": "Joe Attardi",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.0"
+  }
+}
