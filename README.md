@@ -1,5 +1,7 @@
 # set-once
 
+![](https://travis-ci.com/joeattardi/set-once.svg?branch=master)
+
 `set-once` allows you to define an object with certain properties that can be set once and only once. Once a property specified as set-once is set, subsequent attempts to set it will fail, either silently or with an exception (if the `throwException` option is specified).
 
 ## Basic usage
